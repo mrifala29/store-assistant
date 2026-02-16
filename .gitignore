@@ -1,2 +1,8 @@
 # env
 .env
+
+# venv
+sai-venv
+
+# vscode
+.vscode
