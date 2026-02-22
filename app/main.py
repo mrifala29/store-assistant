@@ -27,4 +27,4 @@ def chat(request: ChatRequest):
 
     reply = response["messages"][-1].content
 
-    return ChatResponse(reply=reply)
+    return ChatResponse(message=reply)

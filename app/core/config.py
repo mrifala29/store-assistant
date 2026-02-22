@@ -5,6 +5,7 @@ class LLMSettings(BaseSettings):
     llm_api_key: str
     llm_base_url: str
     llm_temperature: float
+    llm_max_token: int
 
     class Config:
         env_file = ".env"
