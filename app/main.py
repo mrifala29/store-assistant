@@ -29,6 +29,6 @@ def chat(request: ChatRequest):
         config=config,
     )
 
-    reply = response["messages"][-1].content
-
-    return ChatResponse(message=reply)
+    structured = response["structured_response"]
+    
+    return structured
