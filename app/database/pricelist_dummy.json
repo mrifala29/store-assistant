@@ -1,0 +1,235 @@
+{
+  "sell_price": [
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Resmi Indonesia",
+      "storage": 64,
+      "price": 4000000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Resmi Indonesia",
+      "storage": 128,
+      "price": 4500000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Resmi Indonesia",
+      "storage": 256,
+      "price": 4800000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 64,
+      "price": 3700000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 128,
+      "price": 4200000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 256,
+      "price": 4400000
+    },
+
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro",
+      "market_type": "Resmi Indonesia",
+      "storage": 64,
+      "price": 4800000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro",
+      "market_type": "Resmi Indonesia",
+      "storage": 256,
+      "price": 5200000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 64,
+      "price": 4400000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 256,
+      "price": 5000000
+    },
+
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro Max",
+      "market_type": "Resmi Indonesia",
+      "storage": 64,
+      "price": 5200000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro Max",
+      "market_type": "Resmi Indonesia",
+      "storage": 256,
+      "price": 5800000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro Max",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 64,
+      "price": 5000000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro Max",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 256,
+      "price": 5600000
+    }
+  ],
+
+  "buy_price": [
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Resmi Indonesia",
+      "storage": 64,
+      "price": 3600000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Resmi Indonesia",
+      "storage": 128,
+      "price": 4100000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Resmi Indonesia",
+      "storage": 256,
+      "price": 4300000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 64,
+      "price": 3300000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 128,
+      "price": 3800000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 256,
+      "price": 4000000
+    },
+
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro",
+      "market_type": "Resmi Indonesia",
+      "storage": 64,
+      "price": 4300000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro",
+      "market_type": "Resmi Indonesia",
+      "storage": 256,
+      "price": 4700000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 64,
+      "price": 4000000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 256,
+      "price": 4500000
+    },
+
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro Max",
+      "market_type": "Resmi Indonesia",
+      "storage": 64,
+      "price": 4700000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro Max",
+      "market_type": "Resmi Indonesia",
+      "storage": 256,
+      "price": 5200000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro Max",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 64,
+      "price": 4500000
+    },
+    {
+      "category": "iPhone 11 Series",
+      "release_year": 2019,
+      "name": "iPhone 11 Pro Max",
+      "market_type": "Terdaftar Beacukai",
+      "storage": 256,
+      "price": 5000000
+    }
+  ]
+}
