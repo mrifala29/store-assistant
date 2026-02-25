@@ -15,12 +15,20 @@ class PricelistService:
         key = "sell_price" if mode == "sell" else "buy_price"
         return self.data.get(key, [])
 
-    def search_by_name(self, name: str, mode: str = "sell") -> List[Dict]:
+    def search_by_query(self, query: str, mode: str = "sell"):
         items = self.get_all(mode)
-        return [
-            item for item in items
-            if name.lower() in item["name"].lower()
-        ]
+        query_lower = query.lower()
+
+        results = []
+
+        for item in items:
+            name_match = item["name"].lower() in query_lower
+            storage_match = str(item["storage"]) in query_lower
+
+            if name_match and storage_match:
+                results.append(item)
+
+        return results
 
     def search_by_budget(self, min_price: int, max_price: int, mode: str = "sell") -> List[Dict]:
         items = self.get_all(mode)

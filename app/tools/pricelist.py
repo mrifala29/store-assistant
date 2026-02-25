@@ -11,7 +11,7 @@ def search_pricelist(query: str) -> str:
     atau rekomendasi berdasarkan budget.
     """
 
-    results = service.search_by_name(query, mode="sell")
+    results = service.search_by_query(query, mode="sell")
 
     if not results:
         return "Produk tidak ditemukan."
