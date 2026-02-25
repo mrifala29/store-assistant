@@ -19,16 +19,52 @@ class PricelistService:
         items = self.get_all(mode)
         query_lower = query.lower()
 
+        product_names = self.get_unique_product_names(mode)
+
+        detected_product = None
+        for name in product_names:
+            if name.lower() in query_lower:
+                detected_product = name
+                break
+
+        if not detected_product:
+            return []
+
+        # deteksi storage
+        requested_storage = None
+        for s in [64, 128, 256]:
+            if str(s) in query_lower:
+                requested_storage = s
+                break
+
+        # deteksi market
+        requested_market = None
+        if any(word in query_lower for word in ["ibox", "digimap", "blibli", "resmi"]):
+            requested_market = "Resmi Indonesia"
+        elif "beacukai" in query_lower:
+            requested_market = "Terdaftar Beacukai"
+
         results = []
 
         for item in items:
-            name_match = item["name"].lower() in query_lower
-            storage_match = str(item["storage"]) in query_lower
+            if item["name"] != detected_product:
+                continue
 
-            if name_match and storage_match:
-                results.append(item)
+            if requested_market and item["market_type"] != requested_market:
+                continue
+
+            if requested_storage:
+                if item["storage"] == requested_storage:
+                    results.append(item)
+            else:
+                return "NEED_STORAGE"
 
         return results
+    
+    def get_unique_product_names(self, mode: str = "sell"):
+        items = self.get_all(mode)
+        
+        return list(set(item["name"] for item in items))
 
     def search_by_budget(self, min_price: int, max_price: int, mode: str = "sell") -> List[Dict]:
         items = self.get_all(mode)
