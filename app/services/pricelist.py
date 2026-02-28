@@ -30,14 +30,14 @@ class PricelistService:
         if not detected_product:
             return []
 
-        # deteksi storage
+
         requested_storage = None
         for s in [64, 128, 256]:
             if str(s) in query_lower:
                 requested_storage = s
                 break
 
-        # deteksi market
+
         requested_market = None
         if any(word in query_lower for word in ["ibox", "digimap", "blibli", "resmi"]):
             requested_market = "Resmi Indonesia"
